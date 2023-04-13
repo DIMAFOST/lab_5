@@ -8,7 +8,7 @@ public class Task2 {
         System.out.println(" ");
         int sho[] = new int [20];
         for (int i = 0; i < sho.length; i++) {
-            if (0 == i % 2)
+            if (0 == array[i] % 2)
                 sho[i]= array[i];
             else
                 sho[i]=0;
